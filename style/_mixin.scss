@@ -1,0 +1,6 @@
+@mixin circle-position($bg-color, $position-top, $position-left) {
+  background-color: $bg-color;
+  top: $position-top;
+  left: $position-left;
+  transform: translate(-50%, -50%);
+}
